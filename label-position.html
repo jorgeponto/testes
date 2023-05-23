@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8">
+    <title>Elementos label que não estão visíveis ou estão posicionados incorretamente</title>    
+  </head>
+  <body>      
+<h2>Construção original</h2>
+<div class="cookiescript_checkbox">
+        <div class="mdc-checkbox">
+          <input id="cookiescript_category_strict" data-cookiescript="checkbox-input" type="checkbox" class="mdc-checkbox__native-control cookiescript_checkbox_input" value="strict" disabled="" checked="">
+          <div class="mdc-checkbox__background">
+            <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+              <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path>
+            </svg>
+          </div>
+        </div>
+        <label class="cookiescript_checkbox_label" for="cookiescript_category_strict">
+          <span class="cookiescript_checkbox_text" data-cs-i18n-text="{&quot;en&quot;:&quot;Strictly necessary&quot;,&quot;pt&quot;:&quot;Estritamente necess\u00e1rios&quot;}">Estritamente necessários</span>
+        </label>
+      </div>
+<h2>Construção com a label a seguir ao input</h2>
+<div class="cookiescript_checkbox">
+        <div class="mdc-checkbox">
+          <input id="cookiescript_category_strict" data-cookiescript="checkbox-input" type="checkbox" class="mdc-checkbox__native-control cookiescript_checkbox_input" value="strict" disabled="" checked="">
+ <label class="cookiescript_checkbox_label" for="cookiescript_category_strict">
+          <span class="cookiescript_checkbox_text" data-cs-i18n-text="{&quot;en&quot;:&quot;Strictly necessary&quot;,&quot;pt&quot;:&quot;Estritamente necess\u00e1rios&quot;}">Estritamente necessários</span>
+        </label>
+        </div>        
+      </div>
+
+  </body>
+</html>
