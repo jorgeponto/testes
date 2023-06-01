@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8">
+    <title>aria-label aplicado a links</title>    
+  </head>
+  <body>
+    <p><a href="#main">saltar para conteúdo principal</a></p>
+    <header>
+      <h1>aria-label aplicado a links</h1>
+    </header>
+    <main id="main">
+      <section>
+        <h2>aria-label num link com texto vazio</h2>
+        <p><a href="#main" aria-label="Isto é o pseudo-texto do link"></a>.</p>       
+      </section>
+      <section>
+        <h2>aria-label=abcd e texto do link abc. Os leitores de ecrã deverão ler abcd</h2>
+        <p><a href="#main" aria-label="abcd">abc</a>.</p>
+      </section>
+    </main>
+    <footer>
+      <p>2023</p>
+    </footer>
+  </body>
+</html>
