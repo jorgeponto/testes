@@ -18,6 +18,12 @@
         <h2>aria-label=abcd e texto do link abc. Os leitores de ecrã deverão ler abcd</h2>
         <p><a href="#main" aria-label="abcd">abc</a>.</p>
       </section>
+      <section>
+        <h2>aria-label=abcd e texto do link vazio, mas dentro de um iframe</h2>
+        <iframe title="abcdef título do iframe">
+          <p><a href="#main" aria-label="abcd"></a>.</p>
+        </iframe>
+      </section>
     </main>
     <footer>
       <p>2023</p>
